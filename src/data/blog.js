@@ -1,6 +1,6 @@
 const blog = {
   name: "Kioi's Tech Blog",
-  image: "https://via.placeholder.com/150",
+  image: "https://via.placeholder.com/215",
   about: "Sharing thoughts on coding and tech.",
   posts: [
     {
