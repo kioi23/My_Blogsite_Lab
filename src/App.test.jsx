@@ -1,5 +1,13 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import App from "./components/App";
+
+test("renders blog name", () => {
+  render(<App />);
+  const heading = screen.getByText(/Tech Blog/i);
+  expect(heading).toBeInTheDocument();
+});
+//import { render, screen } from "@testing-library/react";
+//import App from "./App";
 
 test("renders blog name", () => {
   render(<App />);
